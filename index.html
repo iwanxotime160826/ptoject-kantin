@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kantin Mas Boy</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#ffffff;
+  color:#333;
+}
+
+header{
+  background:#ffffff;
+  color:green;
+  padding:20px;
+  text-align:center;
+  border-bottom:3px solid green;
+}
+
+.logo{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+}
+
+.logo img{
+  width:120px;
+  height:120px;
+  object-fit:contain;
+}
+
+h1{
+  margin:0;
+  color:green;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+  border:1px solid #e0e0e0;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.card-content{
+  padding:15px;
+  text-align:center;
+}
+
+.card-content h3{
+  color:green;
+  margin:10px 0;
+}
+
+.price{
+  color:#333;
+  font-weight:bold;
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+button{
+  background:green;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+button:hover{
+  background:darkgreen;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+  background:green;
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:darkgreen;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo-removebg-preview.png" alt="Logo Kantin Mas Boy">
+    <h1>KANTIN MAS BOY</h1>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="bolognese.jpeg" alt="Spaghetti Chicken Bolognese">
+    <div class="card-content">
+      <h3>Spaghetti Chicken Bolognese</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="burger beff scramble egg.jpeg" alt="Burger Beef Scramble Egg">
+    <div class="card-content">
+      <h3>Burger Beef Scramble Egg</h3>
+      <p class="price">Rp12.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="katsumayo.jpeg" alt="Chicken Katsu Mayo">
+    <div class="card-content">
+      <h3>Chicken Katsu Mayo</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="nasi goreng spesial.jpeg" alt="Nasi Goreng Special">
+    <div class="card-content">
+      <h3>Nasi Goreng Special</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="ayam crispy .jpeg" alt="Ayam Crispy">
+    <div class="card-content">
+      <h3>Ayam Crispy</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="Chicken popcorn saus BBQ.jpeg" alt="Chicken Popcorn BBQ">
+    <div class="card-content">
+      <h3>Chicken Popcorn Saus BBQ</h3>
+      <p class="price">Rp12.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="katsu saus bbq n cheese.jpeg" alt="Katsu BBQ Cheese">
+    <div class="card-content">
+      <h3>Katsu Saus BBQ dan Cheese</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="ayam gooreng baput.jpeg" alt="Ayam Goreng Bawang Putih">
+    <div class="card-content">
+      <h3>Ayam Goreng Bawang Putih</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="ayam bakar pedes madu.jpeg" alt="Ayam Bakar Pedas Madu">
+    <div class="card-content">
+      <h3>Ayam Bakar Pedas Madu</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="949344796473702852.jpg" alt="Bakso">
+    <div class="card-content">
+      <h3>Bakso</h3>
+      <p class="price">Rp15.000</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
